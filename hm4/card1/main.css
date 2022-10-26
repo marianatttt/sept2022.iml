@@ -1,0 +1,69 @@
+.container {
+    width: 100vw;
+    height: 500px ;
+    display: flex;
+    justify-content: center;
+    background: beige;
+    align-items: center;
+}
+
+.boxs {
+    width: 50%;
+    height: 50%;
+    background: cadetblue;
+
+
+
+}
+.box1 {
+    background: blanchedalmond;
+    width: 100%;
+    height: 25%;
+
+}
+.box2 {
+    background: black;
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+.boxA {
+    background: aquamarine;
+    width: 80%;
+    height: 100%;
+
+
+}
+.boxB {
+    background: darkslateblue;
+    width: 20%;
+    height: 100%;
+
+
+}
+.boxA1 {
+    width: 100%;
+    height: 50%;
+
+}
+.boxA2 {
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+.box-a {
+    background: aliceblue;
+}
+.box-b {
+    background: burlywood;
+}
+.box-c {
+    background: silver;
+}
+
+.box-a, .box-b, .box-c {
+    width: 33.4%;
+    height: 100%;
+
+
+}
