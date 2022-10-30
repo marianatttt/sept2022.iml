@@ -1,17 +1,15 @@
 @media screen and (min-width: 0) and (max-width: 768px){
+
     .box1 {
         height: 15% ;
     }
     .box2 {
-        height: 85%;
-        flex-direction: column;
+        height: 60%;
+        width: 97%;
     }
-    .boxA {
-        height: 75%;
-        width: 100%;
+    .box3 {
+        height: 15%;
+        width: 97%;
     }
-    .boxB {
-        height: 25%;
-        width: 100%;
-    }
+
 }

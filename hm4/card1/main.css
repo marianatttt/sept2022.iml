@@ -1,69 +1,51 @@
 .container {
     width: 100vw;
-    height: 500px ;
+    height: 600px ;
     display: flex;
     justify-content: center;
     background: beige;
     align-items: center;
 }
-
 .boxs {
     width: 50%;
     height: 50%;
-    background: cadetblue;
-
-
-
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
 }
 .box1 {
-    background: blanchedalmond;
-    width: 100%;
-    height: 25%;
-
+    width: 97%;
+    height: 30%;
+    border: 1px solid black;
 }
 .box2 {
-    background: black;
-    width: 100%;
-    height: 75%;
+    width: 75%;
+    height:60% ;
     display: flex;
+    flex-wrap: wrap;
 }
-.boxA {
-    background: aquamarine;
-    width: 80%;
-    height: 100%;
-
-
+.box3 {
+    width:20% ;
+    height: 60%;
+    border: 1px solid black;
 }
-.boxB {
-    background: darkslateblue;
-    width: 20%;
-    height: 100%;
-
-
-}
-.boxA1 {
+.box2a {
     width: 100%;
-    height: 50%;
-
+    height: 48%;
+    border: 1px solid black;
 }
-.boxA2 {
+.box2b {
     width: 100%;
-    height: 50%;
+    height: 49%;
     display: flex;
+    justify-content: space-between;
+    align-items: end;
 }
-.box-a {
-    background: aliceblue;
-}
-.box-b {
-    background: burlywood;
-}
-.box-c {
-    background: silver;
-}
-
-.box-a, .box-b, .box-c {
-    width: 33.4%;
-    height: 100%;
-
-
+.box2bb {
+    width: 31%;
+    height: 92%;
+    border: 1px solid black;
 }
